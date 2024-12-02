@@ -65,7 +65,7 @@ func prediction(m Measure) (int, int) {
 
 		p := diffs[i]
 		newl := leftValue + p[len(p)-1]
-		newr := p[0] - rightValue
+		newr := p[0] - rightValuecd.
 		nd := append(diffs[i], newl)
 		nd = append([]int{newr}, nd...)
 		diffs[i] = nd
